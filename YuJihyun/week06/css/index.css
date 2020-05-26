@@ -1,0 +1,41 @@
+/* index.css */
+ul {
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        }
+    ul:after{
+        content:'';
+        display: block;
+        clear:both;
+    }
+    li{
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+    li a:hover:not(.menu) {
+        background-color: #111;
+        }
+    .active {
+        background-color: #4CAF50
+    }
+    
+    #profile{
+        text-align: center;
+        font-size: 2.2em;
+        font-family: 'Nanum Pen Script', cursive;
+        color: white;
+        background-color: black;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+h1{
+    font-size: 2.7em;
+}

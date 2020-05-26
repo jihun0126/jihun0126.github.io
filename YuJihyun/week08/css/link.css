@@ -1,0 +1,58 @@
+/* link.css */
+h1 { color: red; 
+background-color: whitesmoke;
+text-align: center;}
+h3{ color: black;
+background-color: whitesmoke;
+text-align:center;}
+.봉지 {text-align:center;
+background-color: tomato;}
+.라면 {text-align:center;
+background-color: tomato;}
+.분말 {text-align:center;
+background-color: tomato;}
+.불닭 {text-align:center;
+background-color: tomato;}
+.완성 {text-align:center;
+background-color: tomato;}
+a:link {text-decoration: none;}
+ul {
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        }
+    ul:after{
+        content:'';
+        display: block;
+        clear:both;
+    }
+    li{
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+    li a:hover:not(.menu) {
+        background-color: #111;
+        }
+    .active {
+        background-color: #4CAF50
+    }
+    
+    #profile{
+        text-align: center;
+        font-size: 2.2em;
+        font-family: 'Nanum Pen Script', cursive;
+        color: white;
+        background-color: black;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+.font {
+    font-size: 2.7em;
+}
